@@ -21,7 +21,6 @@ int Checking_Happiness(int num)
     }
     return 0;
 }
-
 int main()
 {
     int main_number;
@@ -30,6 +29,7 @@ int main()
     do
     {
         int num = Square_func(main_number);
+        cout<<num<<" ";
         Checking_Happiness(num);
         main_number = num;
     } while (main_number != 1 && main_number != 37 );
